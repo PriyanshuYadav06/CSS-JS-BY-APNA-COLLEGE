@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px black solid;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-delay: 0s;
+    margin:300px;
+    /* rotate:90deg; */
+    /* scale: 3; */
+    /* scale:(2,3); */
+    
+}
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    /* transform: translate(2); */
+}div:active{
+    background-color: blue;
+}

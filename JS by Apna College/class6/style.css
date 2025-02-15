@@ -1,0 +1,18 @@
+.headingclass{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+    color:chocolate;
+}
+#buttondiv{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    color:blue;
+    border-radius: 5px;
+    background-color: purple;
+}

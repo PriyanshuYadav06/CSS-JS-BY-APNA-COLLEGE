@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    display:inline-block;
+    background-color: aqua;
+}
+#box2{
+    position: relative;
+    left:10px;
+    top:10px;
+    z-index: -1;
+}

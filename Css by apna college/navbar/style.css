@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+body{
+    background-color:lightsteelblue;
+}
+#navbar{
+   
+    border-style: solid;
+    background-color:#0f1111;
+    height:60px;
+}
+#search{
+    background-color: white;
+}
+#bar{
+    background-color:#febd69;
+    border-radius: 5px;
+}
+#amazone{
+   color:#febd69;
+   font-size: 25px;
+}
+a{
+  text-decoration: none;
+  margin-right:200px;
+}
