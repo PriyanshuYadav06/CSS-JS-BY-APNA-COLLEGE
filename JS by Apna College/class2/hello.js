@@ -15,7 +15,7 @@ if(num%2==0){
 }
 
 
-
+alert('Jai Shree RAm');
 // alert("Jai Shree Ram");
 // var a=prompt("Enter a number:");
 // if(a%5==0){

@@ -1,6 +1,7 @@
- // console.log("hello");
-// console.log("Priyanshu Yadav");
-// console.log("I love JS");
+console.log("hello");
+console.log("Priyanshu Yadav");
+console.log("I love JS");
+console.log("hello");
 isfollow=false;
 x=null;
 y=undefined;

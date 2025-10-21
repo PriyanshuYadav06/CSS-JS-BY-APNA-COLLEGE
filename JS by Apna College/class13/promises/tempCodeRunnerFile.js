@@ -1,14 +1,17 @@
-// let promise=new Promise((resolve,reject)=>{
-//     console.log("hello")
-//     reject(123);
-// })
+// This code demonstrates the use of Promises in JavaScript.
+let promise=new Promise((resolve,reject)=>{
+    console.log("Hello");
+    setTimeout(()=>{
+        // resolve("success");
+        reject("error1223");
+    },3000);
+})
+promise.then((e)=>{
+    console.log(e);
+    return 123;
+}).then((e)=>{
+    console.log("next then"+e);
+}).catch((err)=>{
+    console.log("Error:",err);
+})
 
-function getdata(dataid){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            console.log("data",dataid);
-            resolve();
-        },3000)
-    })
-}
-result=getdata(123);

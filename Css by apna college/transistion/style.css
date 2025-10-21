@@ -18,6 +18,7 @@ div:hover{
     color: white;
     font-size: 20px;
     /* transform: translate(2); */
-}div:active{
+}
+div:active{
     background-color: blue;
 }

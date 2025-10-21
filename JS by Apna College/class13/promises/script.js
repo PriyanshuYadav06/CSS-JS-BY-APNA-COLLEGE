@@ -1,11 +1,18 @@
-// function asyncfunc1(){
-//     return new Promise((resolve,reject)=>{
-//         setTimeout(() => {
-//             console.log("Data1");
-//             resolve("sucess...");
-//         },4000);
-//     })
-// }
+function asyncfunc1(data) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("Data:", data);
+      resolve("sucess...");
+    }, 4000);
+  });
+}
+asyncfunc1(1)
+  .then(() => {
+    return asyncfunc1(2);
+  })
+  .then(() => {
+    return asyncfunc1(3);
+  });
 // function asyncfunc2(){
 //     return new Promise((resolve,reject)=>{
 //         setTimeout(() => {
@@ -18,7 +25,8 @@
 // let p1=asyncfunc1();
 // p1.then((res)=>{
 //     console.log("Promise Resolved ",res);
-// })                                          ismain dono eksath execute hota hain isliya humko promise chain ka use karna padega;)
+// })
+//   ismain dono eksath execute hota hain isliya humko promise chain ka use karna padega;
 // console.log("fetching Data2.....");
 // let p2=asyncfunc2();
 // p2.then((res)=>{
@@ -36,27 +44,14 @@
 //     })
 // })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // const getpromise=()=>{
 //     return new Promise((resolve,reject)=>{
 //         console.log("Im a promise");
 //        //resolve("sucesse..");
 //         reject("erorr");
-        
+
 //     })
-    
+
 // }
 // let promise=getpromise();
 // promise.then((e)=>{
@@ -66,38 +61,15 @@
 //     console.log("catch ",e)
 // })
 
-
-
-
-
-
-
-
-
-
-
-
-
 //function getData(userId){
 //     return new Promise((resolve,reject)=>{
 //         setTimeout(() => {
 //             console.log("Data:"+userId);
 //             resolve("sucess...")
-            
+
 //         },5000);
 //     })
 // }
-
-
-
-
-
-
-
-
-
-
-
 
 // function getData(dataid){
 //    return new Promise((resolve,reject)=>{
@@ -123,11 +95,6 @@
 //     })
 // })
 
-
-
-
-
-
 //callback-Hell
 // getData(1,()=>{
 //     console.log("getting data2....");
@@ -141,4 +108,3 @@
 //         })
 //     })
 // })
-

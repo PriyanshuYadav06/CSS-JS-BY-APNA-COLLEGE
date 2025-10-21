@@ -1,5 +1,4 @@
 let fruits = ["Banana", "Apple", "Cherry", "Date"];
-
 // Add elements to the end of the array
 fruits.push("Elderberry", "Fig");
 console.log("After push:", fruits); // ["Banana", "Apple", "Cherry", "Date", "Elderberry", "Fig"]

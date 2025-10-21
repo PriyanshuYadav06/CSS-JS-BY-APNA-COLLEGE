@@ -12,14 +12,14 @@ div{
     height:300px;
     display: flex;
     flex-direction:row;
-    /* flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content:space-between;
-    align-items: end; */
+    align-items: center;
     
 }
 #box1{
     background-color: aqua;
-    flex-grow:2;
+    /* flex-grow:1; */
 }
 #box2{
     background-color: pink;

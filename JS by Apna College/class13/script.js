@@ -1,4 +1,4 @@
-//Asynchronous nature of js
+// Asynchronous nature of js
 // console.log("first");
 // console.log("second");
 
